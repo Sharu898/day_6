@@ -1,0 +1,24 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px;
+
+}
+.box{
+    width: 100%;
+    max-width: 600;
+    margin: auto;
+    padding: 20px;
+    background-color: darkseagreen;
+}
+@media (max-width:600px){
+    .box{
+        background-color: rgb(165, 90, 165);
+    }
+
+}
+@media(max-width:400px){
+    .box{
+        background-color: rgb(44, 117, 151);
+    }
+}
